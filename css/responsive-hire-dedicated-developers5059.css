@@ -1,0 +1,255 @@
+@media (min-width: 1900px) {
+	
+}
+@media (max-width: 1450px) {
+}
+@media (max-width: 1366px) {
+	
+}
+@media (max-width: 1280px) {
+	.square-nav-tabs ul.nav-tabs li a span{
+		width: 200px;
+		height: 200px;
+		background-size: 100% !important
+	}
+	.square-nav-tabs ul.nav-tabs{
+	    margin: -45px 0 0;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a span i{
+		top: 48px;
+	}
+	.square-nav-tabs ul.nav-tabs li a span h3{
+		margin-top: 40px;
+	}
+}
+@media (max-width: 1100px) {
+	
+	/*.square-nav-tabs ul.nav-tabs li a span i {
+	    width: 60px;
+	    height: 50px;
+	    top: 20px;
+	}
+	.square-nav-tabs ul.nav-tabs{
+		margin: -27px 0 0;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a span i {
+	    width: 82px;
+	    height: 58px;
+	    background-size: 210px 134px;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a[aria-controls=threeMonth] span i {
+	    background-position: 7px -71px;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a.active[aria-controls=threeMonth] span i {
+	    background-position: 7px -12px;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a[aria-controls=sixMonth] span i {
+	    background-position: -64px -71px;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a.active[aria-controls=sixMonth] span i {
+	    background-position: -64px -7px;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a[aria-controls=tweleveMonth] span i {
+	    background-position: -135px -71px;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a.active[aria-controls=tweleveMonth] span i {
+	    background-position: -135px -7px;
+	}*/
+	
+}
+@media (max-width: 1024px) {
+	.square-nav-tabs ul.nav-tabs li a span{
+	    width: 160px;
+	    height: 160px;
+	    background-size: 100% !important;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a span i{
+	    background-size: 200px;
+	    width: 60px;
+	    height: 50px;
+	    top: 40px;
+	}
+	.square-nav-tabs ul.nav-tabs li a span h3 {
+	    margin-top: 47px;
+	    font-size: 14px;
+	    line-height: 18px;
+	    padding-left: 12px;
+	    padding-right: 12px;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a.active[aria-controls=threeMonth] span i {
+	    background-position: -3px -12px;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a[aria-controls=threeMonth] span i {
+	    background-position: -3px -70px;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a.active[aria-controls=sixMonth] span i {
+	    background-position: -70px -12px;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a[aria-controls=sixMonth] span i {
+	    background-position: -70px -70px;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a.active[aria-controls=tweleveMonth] span i {
+	    background-position: -137px -12px;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a[aria-controls=tweleveMonth] span i {
+	    background-position: -139px -70px;
+	}
+	.square-nav-tabs ul.nav-tabs{
+	    margin: -25px 0 0;
+	}
+	.involvement-box img {
+		max-width: 60px;
+	}
+	.database-expert .box-database li .e-model-box .box-inner img {
+	    width: auto;
+    	max-height: 60px;
+	}
+	.client-n-partner ul li .e-model-box .box-inner-cl img {
+		width: auto;
+		max-height: 80px;
+	}
+	.square-content-list {
+		font-size: 19px;
+	}
+	.square-nav-back {
+		padding: 60px 0 80px;
+	}
+	.project-counter .customer-social-box li img {
+		max-width: 50px;
+	}
+	.project-counter .customer-social-box li .title {
+		font-size: 15px;
+	}
+	.project-counter .customer-social-box li .hd-n-counting {
+		line-height: 34px;
+	}
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 767px) {
+	.project-counter {
+	    padding: 60px 0 10px;
+	}
+	.hire-dedicated-banner {
+	    background: url(../img/hire-dedicated-developers/video-screen.jpg) no-repeat right top;
+	    background-size: cover;
+	}
+	.technology-list ul li {
+		width: 24%;
+	}
+	.client-n-partner ul {
+		text-align: center;
+	}
+	.client-n-partner ul li {
+	    width: 24%;
+	    float: none;
+	    display: inline-block;
+	}
+	.project-counter.dedicated-ic {
+		padding: 60px 0 50px;
+	}
+}
+@media (max-width: 600px) {
+	.project-counter .customer-social-box li{
+		width: 50%;
+		margin-bottom: 20px;
+	}
+	.square-nav-tabs ul.nav-tabs {
+	    margin: 0;
+	    display: block;
+	}
+	.database-expert .box-database li .e-model-box .box-inner img{
+		max-width: 120px;
+	}
+	.database-expert{
+		padding: 30px 0;
+	}
+	.database-expert ul li .e-model-box .box-inner{
+		min-height: 80px;
+	}
+	.square-nav-tabs{
+		margin-top: 0;
+		padding-top: 50px;
+	}
+	.square-nav-tabs ul.nav-tabs li{
+		width: 49%;
+		float: none;
+		display: inline-block;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a span i{
+		width: 40px;
+		height: 40px;
+		background-size: 120px;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a.active[aria-controls=threeMonth] span i{
+		background-position: 0px 0px;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a.active[aria-controls=sixMonth] span i{
+		background-position: -40px 0px;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a.active[aria-controls=tweleveMonth] span i{
+		background-position: -80px 0px;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a[aria-controls=threeMonth] span i{
+		background-position: 0px 0px;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a[aria-controls=sixMonth] span i{
+		background-position: 80px 40px;	
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a[aria-controls=tweleveMonth] span i{
+		background-position: 40px 80px;	
+	}
+	.project-counter .customer-social-box li .title {
+		font-size: 14px;
+	}
+	.square-nav-back {
+	    padding: 60px 0 60px;
+	}
+	.engagment-modal .n-main-subheading {
+		padding-bottom: 0;
+	}
+	.database-expert ul li {
+	    width: 50%;
+	}
+	.client-n-partner ul li .e-model-box .box-inner-cl img {
+		max-height: 65px;
+	}
+	.client-n-partner ul li {
+		width: 32%;
+	}
+}
+@media (max-width: 480px) {
+	.project-counter.dedicated-ic .customer-social-box li{
+		min-height: 100px;
+		margin-bottom: 30px;
+		padding: 0 7px;
+	}
+	.project-counter .customer-social-box li{
+		min-height: 162px;
+	}
+	.project-counter .customer-social-box li .hd-n-counting {
+		font-size: 26px;
+	}
+	.n-main-subheading {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+@media (max-width: 420px) {
+	.project-counter.dedicated-ic .customer-social-box li {
+		width: 50%;
+		min-height: 90px;
+	}
+	.technology-list ul li {
+	    width: 32%;
+	}
+	.involvement-box img {
+	    max-width: 50px;
+	}
+	.client-n-partner ul li .e-model-box .box-inner-cl img {
+	    max-height: 55px;
+	}
+	.database-expert ul li .e-model-box .box-inner {
+	    min-height: 65px;
+	}
+}

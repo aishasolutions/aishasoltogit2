@@ -1,0 +1,642 @@
+@media (min-width: 1600px) {
+	.web-app-table .web-app-table-cell-img img {
+		max-width: 792px;
+		margin: 0 auto; 
+	}
+	.life-slider-box {
+		max-width: 472px;
+	}
+}
+@media (min-width: 1900px) {
+	.web-app-table {
+		max-width: 1950px;
+		margin: 0 auto; 
+	}
+}
+@media (max-width: 1600px) {
+	.life-wedigtech-wrap .web-app-table .web-app-table-cell-img img {
+	    width: 100%;
+	    max-width: 700px;
+	}
+	.life-slider-box {
+	    left: 143px;
+	    top: 22px;
+	    max-width: 416px;
+	}
+}
+@media (max-width: 1450px) {
+	.what-wedigtech-wrap .max-width-content {
+	    max-width: 85%;
+	}
+	
+	.life-wedigtech-wrap .web-app-table .web-app-table-cell-content {
+		vertical-align: top;
+	}
+}
+@media (max-width: 1400px) {
+	.life-wedigtech-wrap .web-app-table .web-app-table-cell-img img {
+	    width: 100%;
+	    max-width: 600px;
+	}
+	.life-slider-box {
+	    left: 122px;
+	    top: 19px;
+	    max-width: 356px;
+	}
+}
+@media (max-width: 1366px) {
+	.serving-point3 {
+	    top: 74%;
+	    left: 51%;
+	}
+	.serving-point4 {
+	    top: 47%;
+	    left: 52%;
+	}
+	.serving-point5 {
+	    top: 46%;
+	    left: 65%;
+	}
+	.serving-point6 {
+	    top: 58%;
+	    left: 71%;
+	}
+	.serving-point7 {
+	    top: 75%;
+	    left: 81%;
+	}
+	.serving-point8 {
+	    top: 19%;
+	    left: 51%;
+	}
+	.serving-point9 {
+	    top: 38%;
+	    left: 80%;
+	}
+	.achievements-icon {
+		width: 130px;
+		height: 130px;
+		line-height: 130px;
+	}
+}
+
+@media (max-width: 1280px) {
+	.make-different-heading {
+	    font-size: 22px;
+	}
+	.make-different-box .make-different-box-pos img {
+		max-width: 45px;
+	}
+	.ab-name {
+	    font-size: 18px;
+	}
+	.ab-name span {
+	    font-size: 15px;
+	}
+	.operational-team-box {
+		max-width: 100%;
+	}
+	.operational-team-list ul li {
+		width: 16%;
+	}
+	.mentors-name {
+	    font-size: 18px;
+	    line-height: 22px;
+	}
+	.serving-point1 {
+	    left: 11%;
+	}
+	.serving-point2 {
+	    left: 16%;
+	}
+	.serving-point8 {
+	    left: 53%;
+	}
+	.serving-point4 {
+	    left: 54%;
+	}
+	.serving-point3 {
+	    left: 53%;
+	}
+	.serving-point5 {
+	    left: 67%;
+	}
+	.serving-point6 {
+	    left: 74%;
+	}
+	.serving-point7 {
+	    left: 84%;
+	}
+	.serving-point9 {
+	    left: 83%;
+	}
+	.about-contact-sec ul li {
+		font-size: 18px;
+	}
+	.life-wedigtech-wrap .web-app-table .web-app-table-cell-img img {
+	    width: 100%;
+	    max-width: 550px;
+	}
+	.life-slider-box {
+	    left: 112px;
+	    top: 18px;
+	    max-width: 327px;
+	}
+	/*.about-portfolio-wrap .n-portfolio-right {
+	    padding-top: 20px;
+	    min-height: 440px;
+	}*/
+	.serving-point11 {
+	    top: 53%;
+	    left: 23%;
+	}
+	.life-wedigtech-wrap .web-app-table .web-app-table-cell-img  {
+		vertical-align: bottom;
+	}
+	.what-wedigtech-wrap .max-width-content {
+	    max-width: 90%;
+	}
+	.team-sec-ul li {
+		margin: 3px;
+	}
+	.team-sec-ul li:nth-child(4),
+	.team-sec-ul li:nth-child(5),
+	.team-sec-ul li:nth-child(6) {
+		margin: 7px;
+	}
+	.achievements-left {
+		width: 40%;
+	}
+	.achievements-box-reverse .achievements-left {
+		left: 60%;
+	}
+	.achievements-right {
+		width: 60%;
+	}
+	.achievements-box-reverse .achievements-right {
+		right: 40%;
+	}
+	.achievements-title {
+		white-space: nowrap;
+	}
+}
+@media (max-width: 1160px) {
+	.what-wedigtech-wrap .web-app-table {
+		display: block;
+		float: left;
+	}
+	.what-wedigtech-wrap .web-app-table .web-app-table-cell-img,
+	.what-wedigtech-wrap .web-app-table .web-app-table-cell-content {
+		display: block;
+		float: left;
+		width: 100%;
+
+	}
+	.what-wedigtech-wrap .web-app-table.reversed-table .web-app-table-cell-img {
+		left: inherit;
+	}
+	.what-wedigtech-wrap .web-app-table.reversed-table .web-app-table-cell-content {
+		right: inherit;
+	}
+	.what-wedigtech-wrap .reversed-table .max-width-content {
+		max-width: 991px;
+		padding-left: 30px;
+		padding-right: 30px;
+		margin: 0 auto;
+		float: none;
+	}
+	.team-sec-ul {
+		display: block;
+		max-width: 100%;
+		text-align: center;
+		margin: 0;
+	}
+	.team-sec-ul li,
+	.team-sec-ul li:nth-child(1),
+	.team-sec-ul li:nth-child(2),
+	.team-sec-ul li:nth-child(5),
+	.team-sec-ul li:nth-child(6) {
+		width: 180px;
+		height: 180px;
+		display: inline-block;
+		float: none;
+		position: relative;
+		top: inherit;
+		right: inherit;
+		bottom: inherit;
+		left: inherit;
+		vertical-align: top;
+		margin: 0 5px 15px;
+	}
+	.web-app-table .web-app-table-cell-img .team-sec-ul li img {
+		width: auto;
+		height: 190px;
+		    max-width: inherit;
+	}
+
+	.team-sec-ul li:nth-child(3),
+	.team-sec-ul li:nth-child(4) {
+		display: none;
+	}
+	.what-wedigtech-wrap {
+		padding-bottom: 60px;
+	}
+}
+@media (max-width: 1100px) {
+	.operational-team-list ul li {
+	    width: 24%;
+    	min-height: 280px;
+	}
+	.mentors-list ul li {
+		width: 24%;
+	}
+	.mentors-name {
+	    font-size: 17px;
+	}
+	.mark-box .marke-place-name {
+		display: none;
+		top: 10px;
+		z-index: 9;
+	}
+	.mark-box:hover .marke-place-name {
+		display: block;
+	}
+	.marke-flag {
+	    top: -16px;
+	    left: 33px;
+	}
+	.serving-point3 {
+		top: 70%;
+	}
+	.serving-point5 {
+	    left: 66%;
+	    top: 44%;
+	}
+	.serving-point7 {
+	    left: 83%;
+	    top: 72%;
+	}
+	.serving-point6 {
+	    left: 73%;
+	    top: 55%;
+	}
+	.serving-point9 {
+	    left: 83%;
+	    top: 34%;
+	}
+	.testimonials-video img {
+		max-width: 45px;
+	}
+	.testimonials-sec ul li {
+		width: 32.5%;
+	}
+	.testimonials-sec ul {
+	    margin: 0;
+	    padding: 40px 0 0;
+	}
+	.see-action-wrap .ab-name span {
+	    font-size: 16px;
+	}
+	.achievements-box {
+		display: block;
+	}
+	.achievements-left {
+	    display: block;
+	    width: 100%;
+	    margin-bottom: 10px;
+	    float: left;
+	    text-align: center;
+	}
+	.achievements-right {
+	    display: block;
+	    width: 100%;
+	    float: left;
+	}
+	.achievements-box-reverse .achievements-left {
+		left: inherit;
+	}
+	.achievements-box-reverse .achievements-right {
+		right: inherit;
+	}
+	.achievements-past-r .achievements-left {
+		padding-left: 0; 
+	}
+	.achievements-past-r .achievements-box {
+		padding-left: 15px;
+	}
+	.download-profile-wrap {
+	    background-position: right top;
+	}
+	.download-list {
+	    padding: 50px 0 0;
+	}
+	.make-different-sec {
+	    margin-top: 30px;
+	}
+	.life-wedigtech-wrap .web-app-table {
+		display: block;
+		float: left;
+	}
+	.life-wedigtech-wrap .web-app-table .web-app-table-cell-img,
+	.life-wedigtech-wrap .web-app-table .web-app-table-cell-content {
+		display: block;
+		float: left;
+		width: 100%;
+	}
+	.life-wedigtech-wrap .max-width-content {
+	    max-width: 100%;
+	    text-align: center;
+	    padding-left: 15px;
+	    padding-right: 15px;
+	}
+	.life-wedigtech-wrap .web-app-table .web-app-table-cell-content .mob-app-h {
+		text-align: center;
+		font-size: 19px;
+	}
+	.life-wedigtech-wrap .web-app-table .web-app-table-cell-content p {
+		text-align: center;
+	}
+	.life-wedigtech-sl-sec {
+		max-width: 550px;
+		margin: 30px auto 0;
+		display: block;
+	}
+	.life-wedigtech-slider .owl-nav {
+		margin-top: 20px;
+	}
+	.achievements-title {
+		white-space: inherit;
+	}
+}
+@media (max-width: 1024px) {
+	.testimonials-sec ul {
+	    padding: 20px 0 0;
+	}
+	.download-profile-wrap {
+		padding: 60px 0; 
+	}
+	.download-list {
+	    padding: 30px 0 0;
+	}
+	.join-team-heading img {
+	    max-width: 510px;
+	}
+	.about-portfolio-wrap .n-portfolio-left {
+		left: inherit;
+	}
+	.about-portfolio-wrap .n-portfolio-right {
+		right: inherit;
+	}
+	.about-pm-wrap .web-app-table .web-app-table-cell-content p {
+		font-size: 16px;
+		line-height: 27px;
+	}
+	.achievements-box {
+		padding-bottom: 15px;
+	}
+	.achievements-title {
+		padding-top: 15px;
+	}
+}
+@media (max-width: 850px) {
+	.team-sec-ul li,
+	.team-sec-ul li:nth-child(1),
+	.team-sec-ul li:nth-child(2),
+	.team-sec-ul li:nth-child(5),
+	.team-sec-ul li:nth-child(6) {
+		width: 140px;
+		height: 140px;
+	}
+}
+@media (max-width: 767px) {
+	.download-profile-wrap {
+		padding: 60px 0;
+	}
+	.ac-heading {
+	    font-size: 18px;
+	    text-align: center;
+	}
+	.ac-heading img {
+	    max-width: 30px;
+	}
+	.about-contact-sec ul {
+		text-align: center;
+	}
+	.about-contact-sec .col-md-7 {
+		margin-bottom: 30px;
+	}
+	.about-contact-sec {
+	    margin: 30px auto 0;
+	}
+	.line-border-after {
+		display: none;
+	}
+	.about-banner {
+		background: url(../img/about/video-banner.jpg) no-repeat right top;
+		background-size: cover;
+	}
+	.about-pm-wrap {
+		background: #fff; 
+		padding: 60px 0;
+	}
+	.about-pm-wrap .max-width-content {
+	    padding: 30px 15px 0;
+	}
+	.testimonials-sec ul {
+		margin: 0 -5px;
+	}
+	.testimonials-sec ul li {
+		margin: 0;
+		padding: 0 5px;
+	}
+	.upcoming-office-wrap .main-heading {
+	    margin-bottom: 20px;
+	}
+	.life-wedigtech-wrap .max-width-content {
+		padding-top: 0; 
+	}
+	.life-wedigtech-wrap .web-app-table .web-app-table-cell-content .mob-app-h {
+		font-size: 18px;
+	}
+	.date-box {
+		right: inherit;
+		left: 20px;
+		top: 0;
+	}
+	.achievements-past-list .row {
+	    margin-top: 0;
+	}
+	.achievements-box-block {
+		width: 100%;
+		margin: 0 0;
+		padding: 30px 15px;
+		float: left;
+	}
+	.achievements-icon {
+	    margin: 0 auto;
+	    float: none;
+	    display: block;
+	    padding: 20px;
+	}
+	.achievements-box {
+		width: 100%;
+	}
+	.achievements-icon img {
+		max-width: 100%;
+	}
+	.achievements-title {
+		text-align: center;
+		font-size: 18px;
+		padding-top: 5px;
+	}
+	.achievements-content {
+		text-align: center;
+		max-width: 450px;
+    	margin: 0 auto;
+	}
+	.achievements-past-r .achievements-left {
+	    padding-left: 0;
+	}
+	.achievements-past-r .achievements-box-block:first-child {
+	    margin-top: 0;
+	}
+	.achievements-past-r .date-box span:before {
+		border-right: inherit;
+		left: inherit;
+		right: -8px;
+	}
+	.achievements-past-r .date-box.date-box5 span:before {
+		border-left: 13px solid #009688;
+		border-right: inherit;
+	}
+	.achievements-past-r .date-box.date-box6 span:before {
+		border-left: 13px solid #f44336;
+		border-right: inherit;
+	}
+	.achievements-past-r .date-box.date-box7 span:before {
+		border-left: 13px solid #8bc34a;
+		border-right: inherit;
+	}
+	.achievements-past-r .date-box.date-box8 span:before {
+		border-left: 13px solid #3f51b5;
+		border-right: inherit;
+	}
+	.achievements-past-list {
+	    margin-top: 30px;
+	}
+	.serving-client-wrap {
+		margin-top: 0;
+	}
+	.achievements-past-wrap {
+		padding-bottom: 20px;
+	}
+
+	.team-sec-ul li,
+	.team-sec-ul li:nth-child(1),
+	.team-sec-ul li:nth-child(2),
+	.team-sec-ul li:nth-child(5),
+	.team-sec-ul li:nth-child(6) {
+		width: 45%;
+		height: 200px;
+	}
+	.web-app-table .web-app-table-cell-img .team-sec-ul li img {
+		height: auto;
+		width: 100%;
+	}
+	.what-wedigtech-wrap .reversed-table .max-width-content {
+		padding-top: 10px;
+	}
+	.see-action-wrap .ab-name span {
+	    font-size: 14px;
+	}
+	.see-action-wrap .n-main-subheading {
+		max-width: 450px;
+		margin: 0 auto;
+	}
+	.great-code-wrap .n-main-subheading br {
+		display: none;
+	}
+	.life-wedigtech-sl-sec {
+		margin-top: 50px;
+	}
+}
+@media (max-width: 600px) {
+	.life-wedigtech-wrap .web-app-table .web-app-table-cell-img img {
+		display: none;
+	}
+	.life-wedigtech-wrap .web-app-table .web-app-table-cell-img .life-slider-box img {
+		display: block;
+	}
+	.life-slider-box {
+	    left: inherit;
+	    top: inherit;
+	    max-width: 100%;
+	    position: relative;
+	}
+	.life-wedigtech-wrap {
+		border-bottom: solid 1px #ececec;
+		padding-bottom: 60px
+	}
+	.testimonials-sec ul {
+		padding: 0;
+	}
+	.testimonials-sec ul li {
+		width: 100%;
+		max-width: 450px;
+		margin: 15px 0;
+	}
+	.join-team-heading img {
+		width: 100%;
+	}
+	.see-action-wrap {
+		padding-bottom: 40px;
+	}
+	.all-flag-for-mobile {
+		display: block;
+		width: 100%;
+		float: left;
+	}
+	.serving-client-sec {
+		display: none;
+	}
+	.team-sec-ul li,
+	.team-sec-ul li:nth-child(1),
+	.team-sec-ul li:nth-child(2),
+	.team-sec-ul li:nth-child(5),
+	.team-sec-ul li:nth-child(6) {
+		height: 180px;
+	}
+	.achievements-content {
+		line-height: 27px;
+	}
+}
+@media (max-width: 480px) {
+	.achievements-box-block {
+		width: 100%;
+		padding: 20px 0 30px;
+	}
+	.what-wedigtech-wrap .reversed-table .max-width-content {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.team-sec-ul li,
+	.team-sec-ul li:nth-child(1),
+	.team-sec-ul li:nth-child(2),
+	.team-sec-ul li:nth-child(5),
+	.team-sec-ul li:nth-child(6) {
+		height: 120px;
+	}
+	.fancybox-slide--iframe .fancybox-content {
+		width: 95%;
+		max-width: calc(100% - 40px);
+	}
+}
+@media (max-width: 360px) {
+	.team-sec-ul li,
+	.team-sec-ul li:nth-child(1),
+	.team-sec-ul li:nth-child(2),
+	.team-sec-ul li:nth-child(5),
+	.team-sec-ul li:nth-child(6) {
+		height: 120px;
+	}
+}

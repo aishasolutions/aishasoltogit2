@@ -1,0 +1,1079 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Mobile app development company | Web application Development | Aisha Solutions</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<!-- <link rel="stylesheet" type="text/css" href="css/jpreloader.css?v=32" /> -->
+<script type="text/javascript" src="js/jquery.min4c33.js?v=32"></script>
+<!-- <script type="text/javascript" src="js/jpreloader.js?v=32"></script>
+<script type="text/javascript" src="js/custom-loader.js?v=32"></script> -->
+<script src='../www.google.com/recaptcha/apibbe5.js?onload=captchaCallback&amp;render=explicit' async defer></script>
+<!-- <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700" rel="stylesheet"> -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Owl Stylesheets -->
+<link type="text/css" rel="stylesheet" href="css/owl.carousel4c33.css?v=32">
+<link type="text/css" rel="stylesheet" href="css/owl.theme.default4c33.css?v=32">
+<link type="text/css" rel="stylesheet" href="css/font-awesome4c33.css?v=32">
+<link type="text/css" href="css/jquery.simplyscroll4c33.css?v=32" rel="stylesheet">
+<link type="text/css" href="css/jquery.fancybox.min4c33.css?v=32" rel="stylesheet">
+<link type="text/css" href="css/slick4c33.css?v=32" rel="stylesheet">
+<link type="text/css" href="css/animate-home4c33.css?v=32" rel="stylesheet">
+<link type="text/css" href="css/jquery.mCustomScrollbar4c33.css?v=32" rel="stylesheet">
+<link type="text/css" href="css/bootstrap4c33.css?v=32" rel="stylesheet">
+<!-- <link href="css/style.css?v=32" rel="stylesheet"> -->
+<link type="text/css" href="css/homepage4c33.css?v=32" rel="stylesheet">
+<link type="text/css" href="css/common4c33.css?v=32" rel="stylesheet">
+<link type="text/css" href="css/responsive-home4c33.css?v=32" rel="stylesheet">
+<link type="text/css" href="css/common-responsive4c33.css?v=32" rel="stylesheet">
+<style type="text/css">
+.body-overflow{
+overflow: hidden;
+}
+.loader-fix-bg {
+display: none;
+position: fixed;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+background: #fff;
+z-index: -9;
+}
+.loader-fix-bg.active {
+z-index: 9;
+display: block;
+}
+</style>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="" style="display: block;">
+    <form id="form1" runat="server">
+    <div>
+     <section class="main-wrapper">
+
+        <div class="trending-solution closed">
+            <div class="trending-solution-inner">
+                <div class="trending-modal-header">
+                    <div class="row">
+                        <div class="col-7 trending-modal-logo">
+                            <a href="Default.aspx"><img width="225" height="56" src="img/home/logo.png" /></a>
+                        </div>
+                        <div class="col-5 close-btn">
+                            <a href="javascript:void(0);" class="trending-close"><img src="img/home/delete-button.png" /></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-heading">TRENDING SOLUTIONS</div>
+                <div class="trending-more-industries-tab">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <div class="header-sprite-icon ts-icon ts-icon1"></div>
+                                <span>Content Management <br>Solution (CMS)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="header-sprite-icon ts-icon ts-icon2"></div>
+                                <span>Customer Relationship <br>Management (CRM)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="header-sprite-icon ts-icon ts-icon3"></div>
+                                <span>Point of Sale (POS)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="header-sprite-icon ts-icon ts-icon4"></div>
+                                <span>Laundry <br>App Solution</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="header-sprite-icon ts-icon ts-icon5"></div>
+                                <span>M-Commerce <br>Solution</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="header-sprite-icon ts-icon ts-icon6"></div>
+                                <span>Food Ordering <br>App Solution</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="header-sprite-icon ts-icon ts-icon7"></div>
+                                <span>Ride Sharing <br>Solution</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="header-sprite-icon ts-icon ts-icon8"></div>
+                                <span>On – Demand Service <br>Solution</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="header-sprite-icon ts-icon ts-icon9"></div>
+                                <span>Custom Wallet <br>System</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="header-sprite-icon ts-icon ts-icon10"></div>
+                                <span>Saloon <br>Solution</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="header-sprite-icon ts-icon ts-icon11"></div>
+                                <span>Delivery <br>App Solution</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="header-sprite-icon ts-icon ts-icon12"></div>
+                                <span>Learning Management <br>Solution</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+                
+
+
+                <div class="trending-solution-back active"></div>
+        <!--Desktop Menu-->
+        <header class="globalNav noDropdownTransition header menu-for-desktop ">
+            <div class="container-custom">
+                <div class="navRoot header-main">
+                    <div class="navSection logo">
+                        <a class="rootLink item-home colorize" href="Default.aspx">
+                                                             <img class="main-logo" width="225" height="56" src="img/home/logo.png">
+                                <img class="white-logo" width="225" height="56" src="img/home/white-logo.png">
+                                                     </a>
+                    </div>
+                    <div class="navSection primary">
+                        <ul>
+                            <li class="">
+                                <a href="javascript:void(0);" class="rootLink item-products hasDropdown colorize" data-dropdown="aboutus">
+                                    About us
+                                </a>         
+                            </li>
+							
+							
+											
+							
+                            <li class="">
+                                <a href="javascript:void(0);" class="rootLink item-developers hasDropdown colorize" data-dropdown="developers">
+                                    Services
+                                </a>        
+                            </li>
+                           
+                           
+
+                           <li class="">
+                                <a href="javascript:void(0);" class="rootLink item-products hasDropdown colorize" data-dropdown="portfolio">
+                                    Portfolio
+                                </a>         
+                            </li>
+
+
+
+                            <li class="">
+                                <a href="#" class="rootLink item-support colorize">
+                                   Career
+                                </a>        
+                            </li>
+							
+							<li class="">
+							
+							 <div class="navSection secondary home-animated-btn">
+                        <a href="javascript:void(0);" class="rootLink item-dashboard colorize animated-btn view_more_tab" data-adroll-segment="submit_two">
+                                    Deals In
+                                </a>    
+								</div>    
+                            </li>
+                        </ul>
+                    </div>
+					
+                    <div class="navSection secondary home-animated-btn">
+                        <a href="#" class="rootLink item-dashboard colorize animated-btn" data-adroll-segment="submit_two">
+                            Contact Us
+                        </a>
+                    </div>
+					
+                </div>
+            </div>
+			
+			
+            <div class="dropdownRoot">
+                <div class="dropdownBackground" style="transform: translateX(452px) scaleX(0.707692) scaleY(1.1075);">
+                    <div class="alternateBackground" style="transform: translateY(255.53px);"></div>
+                </div>
+                <div class="dropdownArrow" style="transform: translateX(636px) rotate(45deg);"></div>
+                <div class="dropdownContainer" style="transform: translateX(452px); width: 368px; height: 443px;">
+                    
+                    <div class="dropdownSection" data-dropdown="aboutus">
+                        <div class="dropdownContent">
+                            <div class="linkGroup documentationGroup">
+                                <div class="documentationArticles">
+                                    <ul>
+                                        <li class="">
+                                            <a href="About-Us.aspx">
+                                                Company Profile
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="dropdownSection" data-dropdown="portfolio">
+                        <div class="dropdownContent">
+                            <div class="linkGroup documentationGroup">
+                                <div class="documentationArticles">
+                                    <ul>
+                                        <li class="">
+                                            <a href="website-portfolio-aisha-solutions.aspx"`>
+                                                Website
+                                            </a>
+                                        </li>
+
+                                         <li class="">
+                                            <a href="mobile-app-portfolio-aisha-solutions.aspx">
+                                                Mobile App
+                                            </a>
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="dropdownSection" data-dropdown="developers">
+                        <div class="dropdownContent">
+                            <div class="linkGroup documentationGroup">
+                                <div class="documentationArticles">
+                                    <ul>
+                                        <li class="">
+                                            <a href="webdesigning-aishasolutions.aspx">
+                                               Web Designing
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="webdevelopment-aisha-solutions.aspx">
+                                                <!--<span class="header-sprite-icon service-menu-icon service-menu-icon2"></span> -->
+                                                WEB DEVELOPMENT
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="mobile-app-development-aisha-solutions.aspx">
+                                               <!-- <span class="header-sprite-icon service-menu-icon service-menu-icon3"></span> -->
+                                               Mobile APP DEVELOPMENT
+                                            </a>
+                                        </li>
+										
+										 <li class="">
+                                            <a href="ecommerce-development-aisha-solutions.aspx">
+                                                <!--<span class="header-sprite-icon service-menu-icon service-menu-icon4"></span> -->
+                                                E-Commerce
+                                            </a>
+                                        </li>
+										
+                                       <%-- <li class="">
+                                            <a href="ecommerce-development-aisha-solutions.aspx">
+                                                Digital Marketing
+                                            </a>
+                                        </li>--%>
+
+
+                                        <li class="">
+                                            <a href="crm-development-aisha-solutions.aspx">
+                                               <!-- <span class="header-sprite-icon service-menu-icon service-menu-icon5"></span> -->
+                                               Enterprise CRM
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--<div class="dropdownSection right" data-dropdown="company">
+                        <div class="dropdownContent">
+                            <div class="linkGroup documentationGroup">
+                                <div class="documentationArticles">
+                                    <ul>
+                                        <li class="">
+                                            <a href="ai-chatbot-development-company.html">
+                                                <span class="header-sprite-icon solution-menu-icon solution-menu-icon1"></span>
+                                                AI / Chatbot
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="iot-app-development-company.html">
+                                                <span class="header-sprite-icon solution-menu-icon solution-menu-icon2"></span>
+                                                internet of things
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="blockchain-app-development-company.html">
+                                                <span class="header-sprite-icon solution-menu-icon solution-menu-icon3"></span>
+                                                Blockchain
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="wearables-app-development-company.html">
+                                                <span class="header-sprite-icon solution-menu-icon solution-menu-icon4"></span>
+                                                Wearables
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="enterprise-app-development-company.html">
+                                                <span class="header-sprite-icon solution-menu-icon solution-menu-icon5"></span>
+                                                Enterprise
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="bigdata-app-development-company.html">
+                                                <span class="header-sprite-icon solution-menu-icon solution-menu-icon6"></span>
+                                                Big Data
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div> 
+                            <div class="view-more-solutions">
+                                <a href="javascript:void(0);" class="view_more_tab">
+                                    View more
+                                </a>
+                            </div>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+        </header>
+
+
+        <!--Mobile Menu-->
+        <header class="header menu-for-mobile ">
+            <div class="container-custom">
+                <div class="header-main">
+                    <div class="header-left">
+                        <a class="logo" href="Default.aspx">
+                            <img class="main-logo" src="img/home/logo.png">
+                            <img class="white-logo" src="img/home/white-logo.png">
+                        </a>
+                    </div>
+                    <div class="header-right">
+                        <div class="request-btn home-animated-btn"> 
+                            <a href="request-a-quote.html#get-touch-info" class="animated-btn sf_ui_light"> 
+                                <!-- <img src="img/request-header-icon.png" width="38" height="47" alt="App development company"> --><span>Tell us</span> 
+                            </a> 
+                            <div class="mobile-inner-header">
+                                <div class="mobile-inner-header-icon mobile-inner-header-icon-out">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="responsive-menu-bar main-menu">
+                            <nav class="navbar navbar-default navbar-toggleable-md">
+                                <div class=" navbar-collapse mobile-inner-nav">
+                                    <ul class="navbar-nav wedig-menu">
+                                       <li class="nav-item">
+                                            <a href="Default.aspx" class="nav-link menu-link">
+                                                Home
+                                            </a>
+                                        </li>                                       
+                                        <li class=" nav-item dropdown">
+                                            <a href="javascript:void(0);" data-toggle="dropdown" class="nav-link menu-link nav-a dropdown-toggle">About Us</a>
+                                            <div class="dropdown-menu solution-dropdown" aria-labelledby="drop1" role="menu">
+                                                <ul>
+                                                    <li class="">
+                                                        <a href="About-Us.aspx">
+                                                            Company Profile
+                                                        </a>
+                                                    </li>
+                                                   <!-- <li class="">
+                                                        <a href="life-at-wedigtech.html">
+                                                            Life at WeDigTech
+                                                        </a>
+                                                    </li> -->
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class=" nav-item dropdown">
+                                            <a href="javascript:void(0);" data-toggle="dropdown" class="nav-link menu-link nav-a dropdown-toggle">Services</a>
+                                            <div class="dropdown-menu solution-dropdown" aria-labelledby="drop1" role="menu">
+                                                <ul>
+                                                    <li>
+                                                        <a href="webdesigning-aishasolutions.aspx">
+                                                            Web Designing
+                                                        </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="webdevelopment-aisha-solutions.aspx">
+                                                            Web Development
+                                                        </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="mobile-app-development-aisha-solutions.aspx">
+                                                            Mobile App Development
+                                                        </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="ecommerce-development-aisha-solutions.aspx">
+                                                            E-Commerce
+                                                        </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="ecommerce-development-aisha-solutions.aspx">
+                                                            Digital Marketing
+                                                        </a>
+                                                    </li>
+													<li class="">
+                                                        <a href="enterprise-crm-aisha-solutions.aspx">
+                                                            Enterprise CRM
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class=" nav-item dropdown">
+                                            <a href="javascript:void(0);" data-toggle="dropdown" class="nav-link menu-link dropdown-toggle">Deal-In</a>
+                                            <div class="dropdown-menu solution-dropdown" aria-labelledby="drop1" role="menu">
+                                                <ul>
+                                                    <
+                                                    <li class="">
+                                                        <a href="#">
+                                                            Content Management Solution (CMS)
+                                                        </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="#">
+                                                            Customer Relationship Management (CRM)
+                                                        </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="#">
+                                                            Point of Sale (POS)
+                                                        </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="#">
+                                                            Laundry App Solution
+                                                        </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="#">
+                                                            M-Commerce Solution
+                                                        </a>
+                                                    </li>
+                                                    <li class="">
+                                                       <a href="#">
+                                                            Food Ordering App Solution
+                                                        </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="#">
+                                                            Ride Sharing Solution
+                                                        </a>
+                                                    </li>
+                                                    <li class="">
+                                                       <a href="#">
+                                                            On – Demand Service Solution
+                                                        </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="#">
+                                                            Custom Wallet System
+                                                        </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="#">
+                                                            Saloon Solution
+                                                        </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="#">
+                                                            Delivery App Solution
+                                                        </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="#">
+                                                            Learning Management Solution
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+
+                                        <li class=" nav-item dropdown">
+                                            <a href="javascript:void(0);" data-toggle="dropdown" class="nav-link menu-link nav-a dropdown-toggle">Portfolio</a>
+                                            <div class="dropdown-menu solution-dropdown" aria-labelledby="drop1" role="menu">
+                                                <ul>
+                                                    <li class="">
+                                                        <a href="Default2.aspx">
+                                                            Website
+                                                        </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="Default2.aspx">
+                                                            Mobile App
+                                                        </a>
+                                                    </li> 
+                                                </ul>
+                                            </div>
+                                        </li>
+
+                                        <li class=" nav-item">
+                                            <a href="#" class="nav-link menu-link">Career</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <script type="text/javascript">
+            if (window.location.search.indexOf("view-more") >= 0) {
+                $(".trending-solution").removeClass("closed");
+                $(".trending-solution-back").addClass("active");
+                $("body").addClass("overflow-active");
+            }
+</script>  
+
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+        <section class=" talk-form-section" id="solution-form">
+	            <div class="container-custom">
+	                <div class="main-heading">Let's Talk</div>
+	                <div class="n-main-subheading">Our experts are available to answer your queries.</div>
+	                <div class="form-section">
+	                    <div class="form-box">
+	                        <form class="talk-form-field">
+	                            <div class="loader-box">
+	                                <div class="loader">Loading...</div>
+	                            </div>
+	                            <div id="responseMsg" style="float: left;"></div>
+	                            <div class="row">
+	                                <div class="col-sm-6">
+	                                    <div class="material-input">
+	                                        <input type="text" class="validate" name="name" id="name">
+	                                        <label for="name">Name<span class="red">*</span></label>
+	                                        <input type="hidden" name="form_title" value="Lets_Form">
+	                                        <input type="hidden" name="title" value="Mobile app development company | Web application Development | Aisha Solutions">
+	                                    </div>
+	                                </div>
+	                                <div class="col-sm-6">
+	                                    <div class="material-input">
+	                                        <input id="email" name="email" type="text" class="validate">
+	                                        <label for="email">Email Id<span class="red">*</span></label>
+	                                    </div>
+	                                </div>
+	                                <div class="col-sm-6">
+	                                    <div class="material-input">
+	                                        <input id="mobile" name="mobile" type="text" class="validate">
+	                                        <label for="mobile">Mobile Number<span class="red">*</span></label>
+	                                    </div>
+	                                </div>
+	                                <div class="col-sm-6">
+	                                    <div class="material-select">
+	                                        <select class="materialSelect" id="interested" name="interested">
+	                                            <option value="" disabled selected>Interested In<span class="red">*</span></option>
+	                                            <option value="Enterprise Software Solutions">Enterprise Software Solutions</option>
+	                                            <option value="Creating a Mobile App">Creating a Mobile App</option>
+	                                            <option value="Web Development">Web Development</option>
+	                                            <option value="Dedicated Team Service">Dedicated Team Service</option>
+	                                            <option value="IT Consulting Services">IT Consulting Services</option>
+	                                            <option value="Enhancing an Existing Product">Enhancing an Existing Product</option>
+	                                            <option value="Partnership Opportunities">Partnership Opportunities</option>
+	                                            <option value="Other">Other</option>
+	                                        </select>
+	                                    </div>
+	                                </div>
+	                                <div class="col-sm-6">
+	                                    <div class="material-select">
+	                                        <select class="materialSelect" id="budget" name="budget">
+	                                            <option value="" disabled selected>Your Budget</option>
+	                                            <option value="Less than $5,000">Less than $5,000</option>
+	                                            <option value="$5,000 - $10,000">$5,000 - $10,000</option>
+	                                            <option value="$10,000 - $20,000">$10,000 - $20,000</option>
+	                                            <option value="$20,000 - $35,000">$20,000 - $35,000</option>
+	                                            <option value="$35,000 - $50,000">$35,000 - $50,000</option>
+	                                            <option value="$50,000 - $1,00,000">$50,000 - $1,00,000</option>
+	                                            <option value="$1,00,000+">$1,00,000+</option>
+	                                        </select>
+	                                    </div>
+	                                </div>
+	                                <div class="col-sm-6">
+	                                    <div class="material-input">
+	                                        <input id="skype_whatsapp" name="skype_whatsapp" type="text" class="validate">
+	                                        <label for="skype_whatsapp">Skype Id/WhatsApp No.</label>
+	                                    </div>
+	                                </div>
+	                                <div class="col-sm-12">
+	                                    <div class="textarear-field material-textarea">
+	                                        <label for="message">Message</label>
+	                                        <textarea id="message" name="message" class="materialize-textarea"></textarea>
+	                                    </div>
+	                                </div>
+	                                <div class="col-sm-12">
+	                                    <div class="captcha pull-left">
+	                                        <div class="captcha-google" id="lets_form_captcha"></div>
+	                                    </div>
+	                                    <a href="javascript:void(0);" class="free-quote-btn formSubmit"> <span> Submit<div class="home-sprite-icon see-more-icon sm-blue-icon"></div> </span> </a>
+	                                </div>
+	                            </div>
+	                        </form>
+							
+							
+	                        <div class="get-touch-section">
+	                            <div class="get-touch-details"> <span>Get in Touch With Us</span>
+	                                <ul>
+	                                    <li>
+	                                        <a href="tel:+91-9560602415"> <i class="fa fa-phone" aria-hidden="true" title="US"></i> <span> (US) +91-9560602415 </span> </a>
+	                                    </li>
+	                                    <li>
+	                                        <a href="tel:+919354360407"> <i class="fa fa-phone" aria-hidden="true" title="IND"></i> <span> (IND) +91 9354360407 </span> </a>
+	                                    </li>
+	                                    <li>
+	                                        <a href="skype:info@aishasolutions.com"> <i class="fa fa-skype" aria-hidden="true"></i> <span> info@aishasolutions.com </span> </a>
+	                                    </li>
+	                                    <li>
+	                                        <a href="mailto:sales@aishasolutions.com"> <i class="fa fa-envelope" aria-hidden="true"></i> <span> sales@aishasolutions.com </span> </a>
+	                                    </li>
+	                                </ul>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </section>
+
+            <section class="">
+	                    <section class="global-hideout-wrap">
+            <div class="container-custom">
+                
+                
+                
+                
+                <div class="n-footer-menu">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <a href="#">Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#">Career</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="n-footer-bottom">
+                
+                </div>
+            </div>
+        </section>
+        <div class="call-menu-for-mobile">
+            <ul>
+                <li>
+                    <a href="#"><img src="img/whatsapp.png" /><br/>Whatsapp</a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/message.png" /><br/>Message</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);"><img src="img/phone-call.png" /><br/>Call</a>
+                    <ul class="call-sub-menu">
+                        <li>
+                            <a href="#">India</a>
+                        </li>
+                        <li>
+                            <a href="#">USA</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+       
+	 </section>
+        </section>
+
+
+
+        
+         <script async type="text/javascript" src="js/bootstrap4c33.js?v=32"></script>
+<script type="text/javascript" async src="js/jquery.parallax.min4c33.js?v=32"></script>
+<script type="text/javascript" src="js/wow4c33.js?v=32"></script>
+<script type="text/javascript" src="js/owl.carousel4c33.js?v=32"></script>
+<script type="text/javascript" async src="js/modernizr.custom.min4c33.js?v=32"></script>
+
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        var checkWidth = $(window).width();
+        if (checkWidth > 1024) {
+            $('.portfolio-for-mobile-wrap').remove();
+            //$('.sliderSection').append(webSliderHtml);
+        } else {
+            $('.oursuccessstories-msec').remove();
+        }
+    });
+</script>
+
+
+<script type="text/javascript" src="js/ScrollMagic4c33.js?v=32"></script>
+<script type="text/javascript" src="js/materialize4c33.js?v=32"></script>
+<script type="text/javascript" src="js/jquery.simplyscroll4c33.js?v=32"></script>
+<script type="text/javascript" src="js/slick4c33.js?v=32"></script>
+<script type="text/javascript" async src="js/common4c33.js?v=32"></script>
+<script type="text/javascript" async src="js/jquery.mCustomScrollbar4c33.js?v=32"></script>
+<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="js/form4c33.js?v=32"></script>
+<script async>document.addEventListener("DOMContentLoaded",function(){var lazyImages=[].slice.call(document.querySelectorAll("img.lazy"));if("IntersectionObserver"in window){let lazyImageObserver=new IntersectionObserver(function(entries,observer){entries.forEach(function(entry){if(entry.isIntersecting){let lazyImage=entry.target;lazyImage.src=lazyImage.dataset.src;lazyImage.srcset=lazyImage.dataset.srcset;lazyImage.classList.remove("lazy");lazyImageObserver.unobserve(lazyImage);}});});lazyImages.forEach(function(lazyImage){lazyImageObserver.observe(lazyImage);});}else{}});document.addEventListener("DOMContentLoaded",function(){var lazyBackgrounds=[].slice.call(document.querySelectorAll(".lazy-background"));if("IntersectionObserver"in window){let lazyBackgroundObserver=new IntersectionObserver(function(entries,observer){entries.forEach(function(entry){if(entry.isIntersecting){entry.target.classList.add("visible");lazyBackgroundObserver.unobserve(entry.target);}});});lazyBackgrounds.forEach(function(lazyBackground){lazyBackgroundObserver.observe(lazyBackground);});}});(function($){$(function(){$("#scroller").simplyScroll();});})(jQuery);$(function(){if(navigator.userAgent.search("MSIE")>=0||navigator.userAgent.search("NET")>=0||navigator.userAgent.search("Edge")>=0||(navigator.userAgent.search("Safari")>=0&&navigator.userAgent.search("Chrome")<0)){$("img").each(function(){rl=$(this).attr("data-src");$(this).attr('src',rl);});$(".lazy-background").each(function(){$(this).addClass("visible");});}});</script>
+<script async type="text/javascript">    var user_agent = navigator.userAgent; function log(msg) { }
+    $(document).ready(function () { $(".tab_content").hide(); $(".tab_content:first").show(); $("ul.tabs li").click(function () { $(".tab_content").hide(); var activeTab = $(this).attr("rel"); $("#" + activeTab).fadeIn().css("display", "block"); $("ul.tabs li").removeClass("active"); $(this).addClass("active"); }); }); $(function () { var winht = $(window).height(); var inssecht = $(".ins-oursuccessstories").height(); var controller = new ScrollMagic.Controller({ container: window }); $('.oursuccessstories-msec').css('height', inssecht * 4); $('.ins-oursuccessstories.two').css('top', inssecht); $('.ins-oursuccessstories.three').css('top', inssecht * 2); $('.ins-oursuccessstories.four').css('top', inssecht * 3); $('.ins-oursuccessstories.five').css('top', inssecht * 4); var scene = new ScrollMagic.Scene({ triggerElement: "#trigger", offset: 0, duration: winht }).setPin(".ins-oursuccessstories.one ").addTo(controller); var scene = new ScrollMagic.Scene({ triggerElement: "#trigger", offset: winht, duration: winht }).setPin(".ins-oursuccessstories.two").addTo(controller); var scene = new ScrollMagic.Scene({ triggerElement: "#trigger", offset: winht * 2, duration: winht }).setPin(".ins-oursuccessstories.three").addTo(controller); var scene = new ScrollMagic.Scene({ triggerElement: "#trigger", offset: winht * 3, duration: winht }).setPin(".ins-oursuccessstories.four").addTo(controller); var scene = new ScrollMagic.Scene({ triggerElement: "#trigger", offset: winht * 4, duration: 1 }).setPin(".ins-oursuccessstories.five").addTo(controller); }); new WOW().init(); function animateTo() { $('html, body').animate({ scrollTop: $(".our-solutions").offset().top }, 1000); $('.tabsSlider li:eq(6)').trigger("click"); }
+    $("#view_more_tab").click(function (e) { animateTo() })
+    if (window.location.hash != '' && window.location.hash == "#solution") { setTimeout(function () { animateTo(); }, 1000); }
+    $(document).ready(function () { $(".jq-scroll-top").on('click', function (event) { if (this.hash !== "") { event.preventDefault(); var hash = this.hash; $('html, body').animate({ scrollTop: $(hash).offset().top }, 800, function () { window.location.hash = hash; }); } }); }); $('#slider').slick({ slidesToShow: 1, slidesToScroll: 1, arrows: false, fade: true, asNavFor: '#thumbnailSlider' }); $('#thumbnailSlider').slick({ slidesToShow: 1, slidesToScroll: 1, centerPadding: '200px', asNavFor: '#slider', dots: false, arrows: false, centerMode: true, focusOnSelect: true, responsive: [{ breakpoint: 1366, settings: { arrows: false, centerMode: true, centerPadding: '170px', slidesToShow: 1} }, { breakpoint: 1280, settings: { arrows: false, centerMode: true, centerPadding: '155px', slidesToShow: 1} }, { breakpoint: 1101, settings: { arrows: false, centerMode: true, centerPadding: '135px', slidesToShow: 1} }, { breakpoint: 1025, settings: { arrows: false, centerMode: true, centerPadding: '100px', slidesToShow: 3} }, { breakpoint: 851, settings: { arrows: false, centerMode: true, centerPadding: '200px', slidesToShow: 1} }, { breakpoint: 768, settings: { arrows: false, centerMode: true, centerPadding: '180px', slidesToShow: 1} }, { breakpoint: 601, settings: { arrows: false, centerMode: true, centerPadding: '140px', slidesToShow: 1} }, { breakpoint: 481, settings: { arrows: false, centerMode: true, centerPadding: '110px', slidesToShow: 1} }, { breakpoint: 421, settings: { arrows: false, centerMode: true, centerPadding: '90px', slidesToShow: 1} }, { breakpoint: 360, settings: { arrows: false, centerMode: true, centerPadding: '70px', slidesToShow: 1}}] }); var duration = 500; var solution_tab_slider = { loop: false, nav: false, mousedrag: true, navText: false, dots: false, stagePadding: 50, responsive: { 0: { items: 2, stagePadding: 30, center: true }, 360: { items: 3, stagePadding: 25 }, 450: { items: 3, stagePadding: 40 }, 600: { items: 4, stagePadding: 30 }, 768: { items: 4, center: false}} }; function setCarousel(params) {
+        var selectorType = "."; if (params.selectorType == "id") { selectorType = "#"; }
+        if (window.innerWidth > 1024) { if ($(selectorType + params.selector).hasClass(params.newClass) === true) { $(selectorType + params.selector).removeClass(params.newClass); window.location.reload(true); } } else if (window.innerWidth <= 1024) { $(selectorType + params.selector).addClass(params.newClass); $(selectorType + params.newClass).owlCarousel(params.owlData).on('click', '.owl-item', function () { $(this).trigger('to.owl.carousel', [$(this).index(), duration, true]); if ($(this).index() == 0) { $(this).parent().css({ 'transform': 'translate3d(0px, 0px, 0px)' }); } }) }
+    }
+    $(window).load(function () { setCarousel({ 'selector': "tabsSlider", 'newClass': "owl-carousel", 'selectorType': 'class', 'owlData': solution_tab_slider }); $('.owl-stage').css({ 'transform': 'translate3d(0px, 0px, 0px)' }); }); $(window).resize(function () { setCarousel({ 'selector': "tabsSlider", 'newClass': "owl-carousel", 'selectorType': 'class', 'owlData': solution_tab_slider }); }); $('.portfolio-mobile').owlCarousel({ loop: true, nav: false, dots: true, items: 1, responsiveClass: true, responsive: { 0: { items: 1 }, 768: { items: 1 }, 1000: { items: 1}} }); $('.more-slider').owlCarousel({ loop: true, nav: false, dots: true, items: 1, mouseDrag: false, touchDrag: false, animateIn: "fadeIn", animateOut: "fadeOut", responsiveClass: true, responsive: { 0: { items: 1 }, 768: { items: 1 }, 1000: { items: 1}} }); $('.materialSelect').formSelect(); $('.staff-list').parallax(); $('[data-fancybox]').fancybox({ youtube: { controls: true, showinfo: 0 }, vimeo: { color: 'f00'} });</script>
+
+
+
+    
+        <script src="js/bootstrap5059.js?v=20"></script>
+    <script src="js/jquery.parallax.min5059.js?v=20"></script>
+    <script type="text/javascript" src="js/materialize5059.js?v=20"></script>
+    <script type="text/javascript" src="js/wow5059.js?v=20"></script>
+    <script src="js/owl.carousel5059.js?v=20"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.10.4.min5059.js?v=20"></script>
+    <script type="text/javascript" src="js/modernizr.custom.min5059.js?v=20"></script>
+    <script type="text/javascript" src="js/ScrollMagic5059.js?v=20"></script>
+    <script type="text/javascript" src="js/jquery.simplyscroll5059.js?v=20"></script>
+    <script type="text/javascript" src="js/common5059.js?v=20"></script>
+    <script type="text/javascript" src="js/jquery.mCustomScrollbar5059.js?v=20"></script>
+    <script src="https://www.youtube.com/player_api" type="text/javascript"></script>
+    <script src='../www.google.com/recaptcha/api.js'></script>
+    <script src="js/form5059.js?v=20"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.welp-slider').owlCarousel({
+                loop: true,
+                responsiveClass: 0,
+                nav: false,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    450: {
+                        items: 2
+                    },
+                    768: {
+                        items: 3
+                    }
+                }
+            });
+            $('.successful-slider').owlCarousel({
+                loop: true,
+                nav: false,
+                dots: true,
+                mouseDrag: false,
+                touchDrag: false,
+                animateIn: "fadeIn",
+                animateOut: "fadeOut",
+                autoplay: true,
+                autoplayTimeout: 5000,
+                autoplayHoverPause: true,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    450: {
+                        items: 1
+                    },
+                    768: {
+                        items: 1
+                    }
+                }
+            });
+            $('.industry-slider').owlCarousel({
+                loop: true,
+                nav: false,
+                dots: true,
+                mouseDrag: false,
+                touchDrag: false,
+                animateIn: "fadeIn",
+                animateOut: "fadeOut",
+                autoplay: true,
+                autoplayTimeout: 5000,
+                autoplayHoverPause: true,
+                items: 1,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    450: {
+                        items: 1
+                    },
+                    768: {
+                        items: 1
+                    }
+                }
+            });
+            $('.app-backend-slider').owlCarousel({
+                loop: true,
+                nav: true,
+                dots: false,
+                animateIn: "fadeIn",
+                animateOut: "fadeOut",
+                autoplay: true,
+                autoplayTimeout: 5000,
+                autoplayHoverPause: true,
+                navText: "",
+                items: 1,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    450: {
+                        items: 1
+                    },
+                    768: {
+                        items: 1
+                    }
+                }
+            });
+            $('.feedback-1-slider').owlCarousel({
+                loop: true,
+                nav: true,
+                dots: false,
+                animateIn: "fadeIn",
+                animateOut: "fadeOut",
+                autoplay: true,
+                autoplayTimeout: 5000,
+                autoplayHoverPause: true,
+                navText: "",
+                items: 1,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    450: {
+                        items: 1
+                    },
+                    768: {
+                        items: 1
+                    }
+                }
+            });
+            $('.ananta-app-screens-modal-slider').owlCarousel({
+                loop: true,
+                nav: true,
+                dots: false,
+                navText: "",
+                items: 3,
+                stagePadding: 60,
+                center: true,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    450: {
+                        items: 1
+                    },
+                    768: {
+                        items: 3
+                    }
+                }
+            });
+            var timer;
+            $('a[data-toggle="tab"]').on('show.bs.tab', function (e) {
+                intiChatBotScript($(this).attr("href"));
+            })
+
+            function intiChatBotScript(selector, initOnViewPort) {
+                clearTimeout(timer);
+                var chatBot = $(selector).find(".chatBot"),
+                container = $(selector).find(".animatedHeading"),
+                chatBotHeight = chatBot.outerHeight()
+                childs = container.find(".slick-dupe"), i = 0;
+                if (typeof initOnViewPort != "undefined") {
+                    container.animate({ "margin-top": chatBotHeight - getTotalHeight(i) });
+                    return false;
+                }
+                animateHeight(i, 0);
+                function animateHeight(index, animTime) {
+                    var effectTime = 500;
+                    if (typeof animTime != "undefined") {
+                        effectTime = 0;
+                    }
+                    container.animate({ "margin-top": chatBotHeight - getTotalHeight(index) }, effectTime, function () {
+                        timer = setTimeout(function () {
+                            i++;
+                            if (i < childs.length)
+                                animateHeight(i)
+                        }, 1500);
+
+                    });
+                }
+                function getTotalHeight(indexParam) {
+                    var totalHeight = 0;
+                    $(childs).each(function (index, element) {
+                        totalHeight += $(element).outerHeight();
+                        if (index == indexParam) {
+                            return false;
+                        }
+                    });
+                    return totalHeight;
+                }
+            }
+
+            intiChatBotScript("#chatbots1", true);
+            //initate chatbot when this is in viewport
+            var firstInit = false;
+            var topPostion = $("#chatbots1").offset().top - $("#chatbots1").height();
+            $(window).scroll(function (event) {
+                var docTop = $(this).scrollTop();
+                if (docTop >= topPostion && !firstInit) {
+                    intiChatBotScript("#chatbots1");
+                    firstInit = true;
+                    $(window).unbind("scroll");
+                }
+            });
+        });
+
+        $(function () {
+            var controller = new ScrollMagic.Controller();
+        });
+        new WOW().init();
+        $('.materialSelect').formSelect();
+        /***Chat Slider***/
+
+        /*$('#chatbots_tab_nav').on('click','.owl-item',function(e){
+        window.setTimeout(function() {
+        $('#chatbots_tab_nav .owl-item li a').removeClass('active') 
+        }, 500);
+        });*/
+
+        var chatbots_tab_var = {
+            margin: 0,
+            nav: true,
+            loop: false,
+            dots: false,
+            navText: ["<img src='img/chatbots/work-white-arrow-prev.png'>", "<img src='img/chatbots/work-white-arrow-next.png'>"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                360: {
+                    items: 2
+                },
+                500: {
+                    items: 3
+                }
+            }
+        };
+        function setCarousel(params) {
+            var selectorType = ".";
+            if (params.selectorType == "id") {
+                selectorType = "#";
+            }
+            if (window.innerWidth > 767) {
+                if ($(selectorType + params.selector).hasClass(params.newClass) === true) {
+                    $(selectorType + params.selector).removeClass(params.newClass);
+                    window.location.reload(true);
+                }
+            } else if (window.innerWidth <= 767) {
+                $(selectorType + params.selector).addClass(params.newClass);
+                $(selectorType + params.newClass).owlCarousel(params.owlData);
+            }
+        }
+        $(window).load(function () {
+            setCarousel({
+                'selector': "chatbots_tab",
+                'newClass': "owl-carousel",
+                'selectorType': 'class',
+                'owlData': chatbots_tab_var
+            });
+        });
+        $(window).resize(function () {
+            setCarousel({
+                'selector': "chatbots_tab",
+                'newClass': "owl-carousel",
+                'selectorType': 'class',
+                'owlData': chatbots_tab_var
+            });
+        });
+
+        $(function () {
+            $("#chatbots-industrie-div").tabs();
+        });
+    </script>
+
+
+
+
+<a id=back2Top title="Back to top" href="#">
+<span class="home-sprite-icon back-to-top-icon"></span>
+</a>
+
+
+
+    </div>
+
+    </form>
+
+</body>
+</html>

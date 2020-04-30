@@ -1,0 +1,504 @@
+@media (min-width: 1900px) {
+}
+@media (max-width: 1600px) {
+	.chatbots-in-content {
+		padding-left: 150px;
+	}
+}
+@media (max-width: 1450px) {
+	.chatbots-intuitive-wrap:after {
+		right: -140px;
+	}
+}
+@media (max-width: 1366px) {
+	
+}
+@media (max-width: 1280px) {
+	.necessity-box {
+	    min-height: 240px;
+	}
+	.wedigtech-chatbot-box {
+		min-height: 300px;
+		padding-left: 15px;
+		padding-right:15px;
+	}
+	.wedigtech-chatbot-heading {
+		margin-top: 10px;
+	}
+	.wedigtech-chatbot-list ul li {
+		padding: 20px 10px;
+		vertical-align: top;
+	}
+	.chatbots-in-content {
+	    padding-left: 170px;
+	}
+	.tab-content.chatbots-in-content .container-custom {
+		width: 100%;
+		padding-left: 0;
+	}
+	.chatbots-about-wrap .max-width-content {
+	    max-width: 100%;
+	    padding-left: 20px; 
+	}
+	.square-nav-tabs ul.nav-tabs li a span {
+	    width: 200px;
+	    height: 200px;
+	    background-size: 100% !important;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a span i {
+		top: 22px;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a span h3 {
+	    margin-top: 30px;
+	}
+	.square-nav-tabs ul.nav-tabs {
+	    margin: -45px 0 0;
+	}
+	.intuitive-box-wrap .in-heading:after {
+		top: 44%;
+	}
+	.intuitive-box-wrap .intuitive-left-box1 .in-heading:after {
+	    width: 64%;
+	}
+	.intuitive-box-wrap .intuitive-left-box2 .in-heading:after {
+	    width: 51%;
+	}
+	.intuitive-box-wrap .intuitive-left-box3 .in-heading:after {
+	    width: 63%;
+	}
+	.intuitive-box-mid {
+	    height: 675px;
+	}
+	.platforms-list ul li img {
+		width: 80%;
+	}
+	.intuitive-box-wrap .in-content {
+		min-height: 108px;
+	}
+}
+@media (max-width: 1180px) {
+	.chatbot-insight-box {
+	    min-height: 280px;
+	}
+}
+@media (max-width: 1100px) {
+	.chatbots-in-nav li a span {
+		font-size: 14px;
+	}
+	.chatbots-about-wrap .container-custom {
+		width: 100%;
+	}
+	.b-necessity-list ul li {
+		width: 
+	}
+	.square-content-list .o-f-li {
+		width: 32.5%;
+		-webkit-box-flex: 0;
+	    -webkit-flex: 0 0 32.5%;
+	    -ms-flex: 0 0 32.5%;
+	    flex: 0 0 32.5%;
+	    max-width: 32.5%;
+	}
+	.solution-overview-wrap {
+		padding-bottom: 60px;
+	}
+	.chatbots-intuitive-wrap:after {
+		right: -240px;
+	}
+	.intuitive-box-wrap .intuitive-left-box1 .in-heading:after {
+	    width: 54%;
+	}
+	.intuitive-box-wrap .intuitive-left-box2 .in-heading:after {
+	    width: 43%;
+	}
+	.intuitive-box-wrap .intuitive-left-box3 .in-heading:after {
+	    width: 52%;
+	}
+	.platforms-list ul li img {
+	    max-width: 90px;
+	}
+	.wedigtech-chatbot-box {
+		padding: 25px 10px 10px;
+	}
+	.wedigtech-chatbot-icon img {
+		max-width: 70px;
+	}
+}
+@media (max-width: 1024px) {
+	.chat-tab-heading {
+	    font-size: 20px;
+	}
+	.chat-tab-list-heading {
+		font-size: 18px;
+	}
+	.platforms-list ul li .platform-name {
+	    font-size: 15px;
+	}
+	.square-nav-tabs ul.nav-tabs li a span {
+	    width: 160px;
+	    height: 160px;
+	    background-size: 100% !important;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a span i {
+	    background-size: 250px;
+	    width: 60px;
+	    height: 50px;
+	    top: 20px;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a span h3 {
+	    margin-top: 27px;
+	    font-size: 14px;
+	    line-height: 18px;
+	    padding-left: 12px;
+	    padding-right: 12px;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a.active[aria-controls=customer-panel] span i {
+	    background-position: -2px 0;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a[aria-controls=customer-panel] span i {
+	    background-position: -2px -63px;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a[aria-controls=admin-panel] span i {
+	    background-position: -62px -63px;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a.active[aria-controls=admin-panel] span i {
+	    background-position: -62px -3px;
+	}
+	.square-nav-tabs ul.nav-tabs {
+	    margin: -25px 0 0;
+	}
+	.square-nav-back {
+	    padding: 50px 0 100px;
+	}
+	.wedigtech-chatbot-list ul li {
+		width: 50%;
+	}
+	.wedigtech-chatbot-box {
+	    min-height: 330px;
+	}
+	.wedigtech-chatbot-heading {
+		font-size: 16px;
+	}
+	.intuitive-box-wrap .in-heading {
+	    font-size: 16px;
+	}
+	.necessity-name {
+	    font-size: 16px;
+	}
+}
+@media (max-width: 991px) {
+	.b-necessity-list ul li {
+		width: 50%;
+	}
+	.b-necessity-list ul li .necessity-box {
+		position: relative;
+	}
+	.b-necessity-list ul li {
+		border-right: solid 1px #e6e5e5 !important;
+	}
+	.b-necessity-list ul li .necessity-box:after {
+		border-bottom: solid 1px #e6e5e5;
+		content: "";
+		bottom:-25px;
+		position: absolute;
+		width: 100%;
+	}
+	.b-necessity-list ul li:nth-child(2),
+	.b-necessity-list ul li:nth-child(4),
+	.b-necessity-list ul li:nth-child(6) {
+		border-right: none !important;
+	}
+	.b-necessity-list ul li:nth-child(5) .necessity-box:after,
+	.b-necessity-list ul li:nth-child(6) .necessity-box:after {
+		display: none;
+	}
+	.chatbots-intuitive-wrap:after {
+		display: none;
+	}
+
+	.banner-img img {
+	    max-width: 500px;
+	}
+	.necessity-box {
+	    min-height: 200px;
+	}
+	.intuitive-box-right .in-content {
+		max-width: 100%;
+	}
+	.square-content-list .o-f-li {
+		margin-bottom: 15px;
+	}
+}
+@media (max-width: 767px) {
+	.chatbots-about-wrap .web-app-table .web-app-table-cell-img img {
+		max-width: 450px;
+		width: 100%;
+		margin: 0 auto;
+		display: block;
+	}
+	.chatbots-industrie-wrap .nav {
+		display: block;
+	    position: relative;
+	    top: 0;
+	    bottom: 0;
+	    width: 100%;
+	    height: 90px;
+	}
+	.chat-content-ecommerce .chat-tab-list-heading {
+		padding-top: 15px;
+	}
+	.chatbots-industrie {
+		margin-top: 20px;
+	}
+	.chatbots_tab .owl-nav .owl-prev,
+	.chatbots_tab .owl-nav .owl-next {
+		background: transparent;
+		padding: 0;
+	}
+	.chatbots-in-nav li a {
+	    padding-top: 9px;
+	    padding-bottom: 9px;
+	}
+	.tab-content.chatbots-in-content .container-custom {
+	    width: 100%;
+	    padding-left: 15px;
+	}
+	.square-content-list .o-f-li {
+	    width: 49%;
+	    -webkit-box-flex: 0;
+	    -webkit-flex: 0 0 49%;
+	    -ms-flex: 0 0 49%;
+	    flex: 0 0 49%;
+	    max-width: 49%;
+	    min-height: 180px;
+	}
+	.solution-overview-wrap {
+	    padding-bottom: 30px;
+	}
+	.intuitive-box-left,
+	.intuitive-box-right {
+		width: 100%;
+		float: left;
+	}
+	.intuitive-box-mid {
+		display: none;
+	}
+	.intuitive-box1 {
+		display: none;
+	}
+	.intuitive-box-wrap .in-heading:after {
+		display: none;
+	}
+	.intuitive-box-wrap .in-icon {
+		width: 100%;
+		float: left;
+		margin-top: 15px;
+	}
+	.in-icon img {
+		margin: 0 auto 12px;
+	    display: block;
+	    float: none;
+	    padding-left: 0 !important;
+	    max-width: 70px;
+	}
+	.intuitive-box-wrap .in-heading {
+		text-align: center;
+	}
+	.intuitive-box-wrap .in-content {
+		text-align: center;
+		max-width: 450px;
+		margin: 0 auto;
+		min-height: inherit;
+	}
+	.intuitive-left-box1 .in-content-block1 {
+		width: 100%;
+	}
+	.intuitive-box-wrap .intuitive-right-box1 .in-heading,
+	.intuitive-box-wrap .in-content,
+	.intuitive-box-wrap .intuitive-right-box2 .in-heading {
+		padding-left: 0;
+	}
+	.intuitive-block2 .in-heading img {
+		margin: 0 auto 12px;
+	    display: block;
+	    float: none;
+	    padding-left: 0 !important;
+	    max-width: 70px;
+	}
+	.intuitive-left-box1,
+	.intuitive-right-box1,
+	.intuitive-block2 {
+		margin-top: 0;
+	}
+	.platforms-list ul {
+		text-align: center;
+	}
+	.platforms-list ul li {
+		float: none;
+	    display: inline-block;
+	    width: 24.28%;
+	    padding: 12px 0;
+	}
+	.square-nav-tabs ul.nav-tabs li a span {
+	    width: 140px;
+	    height: 140px;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a span h3 {
+	    margin-top: 20px;
+	}
+	.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a span i {
+	    top: 15px;
+	}
+	.square-nav-tabs ul.nav-tabs {
+	    margin: -15px 0 0;
+	}
+	.square-nav-back {
+	    padding: 50px 0 90px;
+	}
+	.chat-tab-heading {
+		display: none;
+	}
+	.chat-tab-left .chat-about-content {
+		display: none;
+	}
+	.tab-content.chatbots-in-content .col-sm-5 {
+	    -webkit-box-flex: 0;
+	    -webkit-flex: 0 0 100%;
+	    -ms-flex: 0 0 100%;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+	.tab-content.chatbots-in-content .col-sm-7 {
+	    -webkit-box-flex: 0;
+	    -webkit-flex: 0 0 100%;
+	    -ms-flex: 0 0 100%;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+	.slick-slider-wrap.chatBot {
+	    height: 350px !important;
+	}
+	.tab-content.chatbots-in-content .tab-pane {
+	    height: 650px;
+	}
+	.banner-img {
+		left: 0;
+		transform: inherit;
+		-webkit-transform: inherit;
+		margin: 0 auto;
+		width: 100%;
+	}
+	.banner-img img {
+	    max-width: 320px;
+	    width: 100%;
+		margin: 0 auto;
+		display: block;
+	}
+	.chatbots-in-nav li a:hover, 
+	.chatbots-in-nav li a:focus {
+		background: transparent;
+	}
+	.chatbots-in-nav li.ui-state-active a {
+	    background: #032784;
+	}
+	.wedigtech-chatbot-box {
+	    min-height: 290px;
+	}
+	.chat-content-ecommerce {
+		padding-bottom: 60px;
+	}
+	.intuitive-box-wrap {
+		padding-top: 20px;
+	}
+	.intuitive-left-box1,
+	.intuitive-left-box2,
+	.intuitive-left-box3,
+	.intuitive-right-box1,
+	.intuitive-right-box2 {
+		width: 100%;
+		float: left;
+		padding: 15px 0;
+	}
+	.chatbots-paltform-wrap {
+		padding: 100px 0;
+	}
+	.chatbots-in-content {
+	    padding-left: 0;
+	}
+}
+@media (max-width: 600px) {
+	.square-nav-tabs ul.nav-tabs li {
+	    width: 50%;
+	    float: left;
+	}
+	.square-nav-tabs ul.nav-tabs {
+	    margin: 0;
+	}
+	.square-nav-tabs {
+	    margin-top: 0;
+    	padding-top: 50px;
+	}
+	.square-content-list .o-f-li {
+	    width: 100%;
+	    -webkit-box-flex: 0;
+	    -webkit-flex: 0 0 100%;
+	    -ms-flex: 0 0 100%;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	    min-height: inherit;
+	    padding: 15px 0;
+	}
+	.solution-overview-wrap {
+		padding-bottom: 45px; 
+	}
+	.platforms-list ul li img {
+	    max-width: 70px;
+	}
+	.wedigtech-chatbot-list ul li {
+	    width: 100%;
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+	.wedigtech-chatbot-box {
+		min-height: inherit;
+		padding: 20px 15px;
+	}
+	.b-necessity-list ul li {
+		width: 100%;
+	    border-right: none !important;
+	}
+	.b-necessity-list ul li .necessity-box {
+		min-height: inherit;
+	}
+	.b-necessity-list ul li:nth-child(5) .necessity-box:after {
+		display: block;
+	}
+	.square-nav-back {
+	    padding: 50px 0 50px;
+	}
+	.square-content-list .o-f-li span {
+		max-width: 310px;
+	    margin: 0 auto;
+	    float: none;
+	    display: block;
+	}
+	.platforms-list ul li .platform-name {
+	    font-size: 14px;
+	}
+	.platforms-list ul li {
+		width: 24%;
+	}
+	.square-content-list h3 {
+		margin-top: 10px; 
+	}
+}
+@media (max-width: 380px) {
+	.wedigtech-chatbot-box {
+		max-width: 100%;
+	}
+}
+@media (max-width: 360px) {
+	.platforms-list ul li {
+		width: 32%;
+	}
+}

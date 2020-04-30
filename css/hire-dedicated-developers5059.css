@@ -1,0 +1,291 @@
+.engagment-modal {
+    width: 100%;
+    padding: 0 0 60px;
+    float: left;
+    background: #fff;
+    border-bottom: solid 1px #efefef;
+}
+.square-nav-section {
+    width: 100%;
+    float: left;
+}
+.square-nav-back {
+    background: #0982cb;
+    padding: 60px 0 120px;
+}
+.square-nav-tabs {
+    margin-top: -55px;
+}
+.square-nav-tabs ul.nav-tabs {
+    padding: 0;
+    width: 100%;
+    float: left;
+    margin: -80px 0 0;
+    border: 0;
+    text-align: center;
+    display: block;
+}
+.square-nav-tabs ul.nav-tabs li {
+    width: 24%;
+    float: none;
+    display: inline-block;
+}
+.square-nav-tabs ul.nav-tabs li a.active {
+    background: 0 0;
+    border: 0;
+}
+.square-nav-tabs ul.nav-tabs li a span {
+    width: 241px;
+    height: 241px;
+    background: url(../img/food-ordering-app/solution-tab-icon-blue.png) no-repeat;
+    display: block;
+    margin: 0 auto;
+}
+.square-nav-tabs ul.nav-tabs li a.active span {
+    background: url(../img/food-ordering-app/solution-tab-icon-white.png) no-repeat;
+}
+.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a span i {
+    width: 100px;
+    height: 80px;
+    background-image: url(../img/chatbots/solution-tab-icon-sprite.png);
+    position: relative;
+    top: 40px;
+    display: block;
+    margin: 0 auto;
+}
+.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a[aria-controls=customer-panel] span i {
+    background-position: 0 -90px;
+}
+.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a.active[aria-controls=customer-panel] span i {
+    background-position: 0 0;
+}
+.square-nav-tabs ul.nav-tabs li a.active span h3 {
+    color: #1480c1;
+}
+.square-content-list h3, .square-nav-tabs ul.nav-tabs li a span h3 {
+    font-size: 16px;
+}
+.square-nav-tabs ul.nav-tabs li a span h3 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin-top: 58px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 22px;
+}
+.square-nav-tabs ul.nav-tabs li a {
+    float: left;
+    width: 100%;
+    border-radius: 0;
+    border: 0;
+    line-height: inherit;
+    overflow: initial;
+}
+.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a span i {
+    width: 100px;
+    height: 80px;
+    background-image: url(../img/hire-dedicated-developers/engagement-sprite.png);
+    position: relative;
+    top: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a[aria-controls=threeMonth] span i {
+    background-position: 7px -90px;
+}
+.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a.active[aria-controls=threeMonth] span i {
+    background-position: 7px -12px;
+}
+.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a[aria-controls=sixMonth] span i {
+    background-position: -82px -90px;
+}
+.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a.active[aria-controls=sixMonth] span i {
+    background-position: -82px -12px;
+}
+.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a[aria-controls=tweleveMonth] span i {
+    background-position: -172px -90px;
+}
+.square-nav-tabs.chatbots-tabs-icon ul.nav-tabs li a.active[aria-controls=tweleveMonth] span i {
+    background-position: -172px -12px;
+}
+.square-content-section{
+	width: 100%;
+    float: left;
+    padding-top: 20px;
+}
+.square-content-list {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 22px;
+}
+.square-content-list .o-f-li {
+    width: 100%;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+.square-content-list h3 {
+    color: #0283e8;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.square-content-list .o-f-li span {
+    font-size: 14px;
+    width: 100%;
+    float: left;
+    line-height: 22px;
+    text-align: center;
+}
+.engagment-modal .n-main-subheading{
+    padding-bottom: 30px;
+}
+.technology-wrap {
+    width: 100%;
+    float: left;
+    padding: 60px 0;
+    background: #fcfcff;
+    border-top: 1px solid #ecf2ff;
+    /*border-bottom: solid 1px #ecf2ff;*/
+}
+.involvement-list {
+    width: 100%;
+    float: left;
+    padding: 30px 0 0;
+}
+.technology-list {
+    padding-top: 0;
+}
+.involvement-list ul {
+    margin: 30px 0 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.involvement-list ul li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 16.3%;
+    text-align: center;
+    vertical-align: top;
+    min-height: 180px;
+}
+.involvement-list.technology-list ul li {
+    min-height: inherit;
+}
+.technology-list ul li {
+    width: 24.5%;
+    min-height: inherit;
+    padding: 20px 0;
+}
+.involvement-box {
+    max-width: 180px;
+    margin: 0 auto;
+}
+.involvement-box img {
+    margin-bottom: 0;
+    max-width: 80px;
+}
+.database-expert {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0 30px;
+    background: #fcfcff;
+    border-bottom: solid 1px #ecf2ff;
+}
+
+.database-expert ul {
+    float: left;
+    width: 100%;
+    padding-top: 35px;
+}
+.database-expert ul li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    width: 25%;
+}
+.database-expert ul li .e-model-box .box-inner {
+    position: relative;
+    min-height: 130px;
+}
+.database-expert .box-database li .e-model-box .box-inner img {
+    max-width: inherit;
+    height: inherit;
+    width: 165px;
+}
+.database-expert.client-n-partner {
+    background: #fff;
+    border-bottom: 1px solid #eaeaea;
+    padding: 60px 0px 30px;
+}
+.client-n-partner ul li {
+    width: 20%;
+}
+.client-n-partner ul li .e-model-box .box-inner-cl img {
+    width: 150px;
+    margin: 0 auto;
+}
+.project-counter{
+	float: left;
+	width: 100%;
+	padding: 60px 0;
+    border-top: 1px solid #ecf2ff;
+}
+.project-counter .customer-social-box{
+	float: left;
+	width: 100%;
+}
+.project-counter .customer-social-box{
+	padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.project-counter .customer-social-box li {
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 25%;
+    list-style: none;
+    text-align: center;
+}
+.project-counter .customer-social-box li .hd-n-counting {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    color: #003c61;
+}
+.project-counter .customer-social-box li .title {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #101010;
+}
+.project-counter.dedicated-ic{
+    background: #f8faff;
+    padding-bottom: 30px;
+}
+.project-counter.dedicated-ic .customer-social-box li{
+	width:33.3%;
+	margin-bottom: 50px;
+}
+.project-counter.dedicated-ic .customer-social-box li img {
+    width: 80px;
+}
+.project-counter.dedicated-ic .customer-social-box ul{
+	margin-top: 40px;
+}
+.video-outer video {
+    background: url(../img/hire-dedicated-developers/video-screen.jpg) no-repeat left top;
+    background-size: cover;
+}

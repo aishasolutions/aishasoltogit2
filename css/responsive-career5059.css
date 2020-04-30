@@ -1,0 +1,311 @@
+@media (max-width: 1500px) {
+	.battel-technology:before {
+		width: 378px;
+    	height: 395px;
+	}
+	.battel-technology:after {
+		width: 378px;
+    	height: 395px;
+	}
+	.battel-technology {
+		min-height: 505px;
+	}
+
+}
+@media (max-width: 1366px) {
+	.accordion .card-header .card-title {
+		font-size: 18px;
+	}
+	.accordion .card-body .detail-content .title {
+		font-size: 17px;
+	}
+	.accordion .card-body .detail-content ul li {
+		font-size: 16px;
+		margin-bottom: 8px; 
+	}
+	.team-sec-ul li:nth-child(1){
+		width: 150px;
+		height: 150px;
+	}
+	.team-sec-ul li:nth-child(2){
+		width: 230px;
+		height: 230px;
+	}
+	.team-sec-ul li:nth-child(3){
+		width: 150px;
+		height: 200px;
+	}
+	.team-sec-ul li:nth-child(4){
+		width: 145px;
+		height: 158px;
+	}
+	.team-sec-ul li:nth-child(5){
+		width: 180px;
+		height: 175px;
+	}
+	.team-sec-ul li:nth-child(6){
+		width: 185px;
+		height: 164px;
+	}
+}
+@media (max-width: 1280px) {
+	.battel-technology:before,
+	.battel-technology:after {
+		display: none;
+	}
+	.battel-technology {
+		min-height: inherit;
+	}
+	.battel-technology-content {
+		position: inherit;
+		top: inherit;
+		transform: inherit;
+		left: inherit;
+		margin: 0 auto;
+		max-width: 991px;
+	}
+	.battel-logo ul li {
+	    width: 14%;
+	    float: left;
+	    list-style: none;
+	    padding: 7px;
+	}
+	.battel-logo ul li img {
+		background: #fff;
+		padding: 5px;
+	}
+	.opportunities-wrap .opportunities-listing li {
+		width: 49%;
+		margin-bottom: 50px;
+	}
+	.opportunities-wrap .opportunities-listing li .opportunities-box {
+	    min-height: 300px;
+	    max-width: 440px;
+	    margin: 0 auto;
+	    float: none;
+	}
+	.battel-logo {
+	    width: 100%;
+	    float: left;
+	    margin-top: 30px;
+	    display: block;
+	    padding: 0 15px;
+	}
+	.career-scalable-wrap .inner-main-heading {
+	    padding: 60px 0 30px;
+	}
+	.career-scalable-wrap .container-custom {
+		width: 100%;
+    	padding: 0 25px;
+	}
+	.team-sec-ul {
+		float: right;
+	}
+	.career-scalable-wrap .web-app-table {
+		margin-top: 30px;
+	}
+	.battel-technology-content .main-heading {
+		max-width: 700px;
+		margin: 0 auto;
+	}
+	.opportunities-wrap {
+
+	}
+}
+@media (max-width: 1160px) {
+	.career-scalable-wrap .web-app-table {
+		display: block;
+		float: left;
+	}
+	.career-scalable-wrap .web-app-table .web-app-table-cell-img,
+	.career-scalable-wrap .web-app-table .web-app-table-cell-content {
+		display: block;
+		float: left;
+		width: 100%;
+
+	}
+	.career-scalable-wrap .web-app-table .web-app-table-cell-content .mob-app-h {
+		text-align: center;
+		margin-top: 15px; 
+	}
+	.career-scalable-wrap .web-app-table.reversed-table .web-app-table-cell-img {
+		left: inherit;
+	}
+	.career-scalable-wrap .web-app-table.reversed-table .web-app-table-cell-content {
+		right: inherit;
+	}
+	.career-scalable-wrap .max-width-content {
+		max-width: 991px;
+		padding-left: 30px;
+		padding-right: 30px;
+		margin: 0 auto;
+		float: none;
+		text-align: center;
+	}
+	.team-sec-ul {
+		display: block;
+		max-width: 100%;
+		text-align: center;
+		margin: 0;
+	}
+	.team-sec-ul li,
+	.team-sec-ul li:nth-child(1),
+	.team-sec-ul li:nth-child(2),
+	.team-sec-ul li:nth-child(5),
+	.team-sec-ul li:nth-child(6) {
+		width: 180px;
+		height: 180px;
+		display: inline-block;
+		float: none;
+		position: relative;
+		top: inherit;
+		right: inherit;
+		bottom: inherit;
+		left: inherit;
+		vertical-align: top;
+		margin: 0 5px 15px;
+	}
+	.web-app-table .web-app-table-cell-img .team-sec-ul li img {
+		width: auto;
+		height: 190px;
+		max-width: inherit;
+	}
+
+	.team-sec-ul li:nth-child(3),
+	.team-sec-ul li:nth-child(4) {
+		display: none;
+	}
+	.career-scalable-wrap .container-custom {
+		width: 100%;
+	}
+}
+@media (max-width: 1100px) {
+	.opportunities-wrap .opportunities-listing li .opportunities-box {
+	    min-height: 330px;
+	    padding-bottom: 15px;
+	}
+}
+@media (max-width: 1024px) {
+	.battel-technology-content .main-heading {
+		line-height: 30px;
+	}
+	.battel-technology-content .main-heading {
+	    max-width: 560px;
+	}
+}
+@media (max-width: 991px) {
+	.battel-technology-content{
+		max-width: 768px;
+	}
+	.battel-logo ul li{
+		width: 20%;
+	}
+	.battel-technology {
+		padding-left: 15px;
+		padding-right: 15px;
+	}	
+	.opportunities-wrap .opportunities-listing {
+		margin-top: 30px;
+	}
+}
+@media (max-width: 850px) {
+	.team-sec-ul li,
+	.team-sec-ul li:nth-child(1),
+	.team-sec-ul li:nth-child(2),
+	.team-sec-ul li:nth-child(5),
+	.team-sec-ul li:nth-child(6) {
+		width: 140px;
+		height: 140px;
+	}
+}
+@media (max-width: 767px) {
+	.career-banner {
+	    background: url(../img/career/video-screen.jpg) no-repeat right top;
+	    background-size: cover;
+	}
+	.max-width-content{
+		padding: 0px !important;
+	}
+	.battel-logo{
+		padding: 0px 15px;
+	}
+	.battel-logo ul li{
+		width: 25%;
+	}
+	.team-sec-ul li, 
+	.team-sec-ul li:nth-child(1), 
+	.team-sec-ul li:nth-child(2), 
+	.team-sec-ul li:nth-child(5), 
+	.team-sec-ul li:nth-child(6) {
+	    width: 45%;
+	    height: 200px;
+	}
+	.web-app-table .web-app-table-cell-img .team-sec-ul li img {
+	    height: auto;
+	    width: 100%;
+	}
+	.opportunities-wrap .opportunities-listing li {
+		width: 100%;
+	}
+	.opportunities-wrap .opportunities-listing li .opportunities-box {
+	    min-height: inherit;
+	    overflow: hidden;
+	}
+	.join-team-wrap {
+		padding:80px 0;
+	}
+	.dont-see-wrap {
+		padding: 80px 0;
+	}
+	.career-scalable-wrap .web-app-table .web-app-table-cell-content {
+		padding-top: 40px;
+	}
+}
+@media (max-width: 600px) {
+	.team-sec-ul li, 
+	.team-sec-ul li:nth-child(1), 
+	.team-sec-ul li:nth-child(2), 
+	.team-sec-ul li:nth-child(5),
+	.team-sec-ul li:nth-child(6) {
+	    height: 180px;
+	}
+	.opportunities-wrap .opportunities-listing li {
+		width: 100%;
+		padding: 0;
+	}
+	.opportunities-wrap .opportunities-listing li .opportunities-box {
+	    min-height: inherit;
+	    padding: 25px;
+	}
+	.dont-see-wrap .free-quote-btn {
+		margin-bottom: 15px;
+	}
+	.see-content br {
+		display: none;
+	}
+}
+@media (max-width: 480px) {
+	.battel-logo {
+		padding: 0;
+	}
+	.team-sec-ul li, 
+	.team-sec-ul li:nth-child(1), 
+	.team-sec-ul li:nth-child(2), 
+	.team-sec-ul li:nth-child(5), 
+	.team-sec-ul li:nth-child(6) {
+	    height: 120px;
+	}
+}
+@media (max-width: 360px) {
+	.battel-logo ul li{
+		width: 33.33%;
+
+	}
+	.team-sec-ul li, 
+	.team-sec-ul li:nth-child(1), 
+	.team-sec-ul li:nth-child(2), 
+	.team-sec-ul li:nth-child(5), 
+	.team-sec-ul li:nth-child(6) {
+	    height: 120px;
+	}
+}
